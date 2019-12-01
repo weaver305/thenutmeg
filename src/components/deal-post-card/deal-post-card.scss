@@ -1,0 +1,75 @@
+.deal-post-card {
+  border-bottom: 1px solid #DEDBDB;
+  padding-bottom: 1rem;
+  margin-bottom: 1rem;
+
+  figure {
+    border-radius: 4px;
+    background-color: #D6D6D6;
+    position: relative;
+    margin-bottom: 1rem;
+    padding-bottom: 60%;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin-bottom: 3px;
+    padding-bottom: 5px;
+  }
+
+  p {
+    font-size: 10px;
+  }
+
+  .deal-badge {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    border-radius: 4px;
+    background-color: #9B9B9B;
+    color: #fff;
+    padding: .5rem 1rem;
+    margin: .5rem;
+    font-size: 10px;
+  }
+
+  .deal-rating {
+    font-size: 12px;
+    margin-bottom: 5px;
+
+    & > *:not(:first-child) {
+      padding-left: 5px;
+    }
+  }
+
+  .deal-price {
+    display: flex;
+    align-items: center;
+
+    span:not(:first-child) {
+      margin-left: 5px;
+    }
+  }
+
+  .perct-off {
+    background-color: #D8D8D8;
+    padding: 5px 1rem;
+    border-radius: 4px;
+    margin-left: 10px;
+  }
+
+  .user-count {
+    position: absolute;
+    top: 0;
+    right: 0;
+    margin: .5rem;
+    font-size: 11px;
+    color: #4A4A4A;
+    display: flex;
+    justify-content: center;
+
+    span {
+      margin-left: 5px;
+    }
+  }
+}

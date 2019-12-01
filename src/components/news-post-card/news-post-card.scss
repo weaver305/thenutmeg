@@ -1,0 +1,33 @@
+.news-post-card {
+  border-bottom: 1px solid #D4D4D4;
+  margin-bottom: 1rem;
+
+  figure {
+    padding-bottom: 50%;
+    background: #A2A2A2;
+    position: relative;
+    border-radius: 4px;
+    margin-bottom: 1rem;
+  }
+
+  .post-badge {
+    padding: .5rem 1rem;
+    border-radius: 30px;
+    background-color: #D8D8D8;
+    color: #000000;
+    display: inline-block;
+    position: absolute;
+    margin: 1rem;
+    font-size: 12px;
+  }
+
+  h2 {
+    font-size: 16px;
+    margin-bottom: 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}

@@ -1,0 +1,47 @@
+main.post-page {
+  padding: 1rem;
+
+}
+
+.post-body {
+  padding-bottom: 100px;
+
+  h1 {
+    font-size: 30px;
+    font-weight: 700;
+    line-height: 36px;
+    margin-bottom: 1rem;
+  }
+
+  .post-timestamp {
+    font-weight: 400;
+    margin-bottom: 1rem;
+    font-size: 14px;
+    display: inline-block;
+  }
+
+  .view-count-label {
+    padding: .5rem;
+    background-color: #ddd;
+    display: inline-block;
+    border-radius: 4px;
+    margin-bottom: .5rem;
+    font-size: 12px;
+    text-transform: uppercase;
+  }
+
+  h2 {
+    font-size: 22px;
+    margin-bottom: .5rem;
+    font-weight: 500;
+    font-family: "Helvetica";
+  }
+
+  p {
+    font-size: 17px;
+    margin-bottom: 1rem;
+    line-height: 1.3;
+    font-weight: 300;
+    font-family: "Helvetica";
+  }
+}

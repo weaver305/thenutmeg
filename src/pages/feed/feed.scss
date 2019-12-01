@@ -1,0 +1,9 @@
+main.feed-page {
+  padding: 1rem;
+  padding-bottom: 200px;
+
+  & > header {
+    padding: 0 0 1rem 0;
+    font-size: 18px;
+  }
+}

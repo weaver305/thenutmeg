@@ -1,0 +1,38 @@
+.admin-post {
+  border-bottom: 1px solid #D5D4D4;
+  padding: 0 16px 16px 16px;
+  margin-bottom: 16px;
+}
+
+.ap-timestamp {
+  font-size: 12px;
+  text-align: right;
+}
+
+.ap-opts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.ap-info {
+
+  h3 {
+    font-size: 16px;
+    margin-bottom: 8px;
+  }
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    font-size: 12px;
+    padding: 4px 14px;
+    background-color: #D8D8D8;
+    border-radius: 4px;
+
+    &:not(:first-child) {
+      margin-left: 5px;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+.video-post-card {
+  border-bottom: 1px solid #D4D4D4;
+  margin-bottom: 1rem;
+  
+  .vpc-container {
+    padding-bottom: 50%;
+    background-color: #D8D8D8;
+    border-radius: 4px;
+    position: relative;
+    margin-bottom: 1rem;
+  }
+
+  .vpc-play-btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 55px;
+    color: #9B9B9B;
+  }
+
+  h2 {
+    margin-bottom: 1rem;
+  }
+}

@@ -1,0 +1,43 @@
+.events-carousel {
+  border-bottom: 1px solid #DEDBDB;
+  margin-bottom: 1rem;
+  
+  h2 {
+    font-size: 18px;
+    font-weight: 700;
+    margin-bottom: 10px;
+  }
+
+  & > ul {
+    margin-bottom: 1rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .event-card {
+    position: relative;
+    width: 33%;
+    background-color: #D8D8D8;
+    padding-bottom: 40%;
+    border-radius: 4px;
+  }
+
+  .event-card:nth-child(even) {
+    margin: 0 1rem;
+  }
+
+  .user-count {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin: .5rem;
+    font-size: 11px;
+    color: #4A4A4A;
+    display: flex;
+    justify-content: center;
+
+    span {
+      margin-left: 5px;
+    }
+  }
+}

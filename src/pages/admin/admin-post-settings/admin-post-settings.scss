@@ -1,0 +1,34 @@
+.admin-post-settings {
+  background: #F5F5F5;
+  padding: 17px;
+
+  li {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    &:not(:last-child) {
+      margin-bottom: 15px;;
+    }
+  }
+
+  label {
+    font-size: 14px;
+    width: 60px;
+    padding-right: 17px;
+  }
+
+  select {
+    cursor: pointer;
+  }
+
+  select, input {
+    flex: 1 auto;
+    border: 0;
+    border-radius: 0;
+    outline: none;
+    background: transparent;
+    font-size: 12px;
+    border-bottom: 1px solid #BBBABA;
+  }
+}

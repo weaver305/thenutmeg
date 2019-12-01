@@ -1,0 +1,45 @@
+.create-content-page {
+
+  h1 {
+    font-size: 28px;
+    padding: 17px 17px;
+  }
+
+  ul {
+    padding: 0 15px;
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+  li {
+    width: 33%;
+    position: relative;
+    margin-bottom: 2.5%;
+  }
+
+  .cc-type {
+    background-color: #F4F3F3;
+    border-radius: 50%;
+    text-align: center;
+    margin: 0 5%;
+    width: 90%;
+    padding-bottom: 90%;
+    position: relative;
+
+    svg {
+      font-size: 30px;
+      margin-bottom: 5px;
+    }
+
+    h4 {
+      font-size: 12px;
+    }
+  }
+
+  .cc-type-inner {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

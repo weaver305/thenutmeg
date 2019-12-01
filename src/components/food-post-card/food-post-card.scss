@@ -1,0 +1,28 @@
+.food-post-card {
+  border-bottom: 1px solid #D4D4D4;
+  margin-bottom: 1rem;
+
+  h2 {
+    font-size: 16px;
+    line-height: 1.2;
+  }
+
+  h3 {
+    font-size: 11px;
+    font-weight: 200;
+    margin-bottom: 8px;
+  }
+
+  .food-tags {
+    font-size: 11px;
+    font-weight: 200;
+    padding-bottom: 3px;
+  }
+
+  figure {
+    padding-bottom: 100%;
+    background-color: #D8D8D8;
+    border-radius: 4px;
+    margin-bottom: 8px;
+  }
+}
